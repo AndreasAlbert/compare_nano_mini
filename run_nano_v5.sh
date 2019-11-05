@@ -22,7 +22,7 @@ scram b
 cd ../../
 cmsDriver.py step1  \
             --filein "${INPUTFILE}" \
-            --fileout file:"${OUTPUTFILE}" \
+            --fileout "${OUTPUTFILE}" \
             --mc  \
             --eventcontent NANOEDMAODSIM  \
             --datatier NANOAODSIM  \
